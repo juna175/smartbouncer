@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="@string/Tecnologia"
+        android:layout="@layout/itemcategory" >
+        
+        <CheckBoxPreference
+            android:layout="@layout/preftecnologia"
+            android:key="checkBoxKey"
+            android:title="@string/HabilitarBluetooth"
+            android:summary="@string/PorDefecto"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/Historial"
+        android:layout="@layout/itemcategory" >
+      	<com.NFCproject.smartBouncer.MyDialogPreference
+	      	android:layout="@layout/prefhistorial"
+	      	android:key="borrarHistorialKey"
+	      	android:title="@string/BorrarHistorial"
+	      	android:summary="@string/BorrarHistorialSubtitle"
+	      	android:dialogMessage="@string/DialogMessage"
+	      	android:negativeButtonText="@string/No"
+	      	android:positiveButtonText="@string/Si"
+	      	android:dialogIcon="@drawable/exclamacion" />       	 
+    </PreferenceCategory>
+    
+    <PreferenceCategory 	android:title="@string/Ayuda"
+        android:layout="@layout/itemcategory" >
+        <Preference 
+            android:key="ayudaKey"
+            android:title="@string/AyudaVersion" 
+            android:summary="@string/AyudaVersionSubtitle" 
+            android:layout="@layout/prefayuda" 
+            android:selectable="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

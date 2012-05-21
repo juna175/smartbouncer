@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <!--  LOGIN -->
+    <string name="Usuario">Usuario</string>
+    <string name="Empresa">Empresa</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Acceso">Acceso</string>
+    <string name="Login">Login</string>
+    <string name="LoginRellene">Rellene todos los campos</string>
+    <string name="LoginInformacion">\n  Por favor introduzca el \n   usuario, la empresa y la \n  contraseña para acceder</string>
+    
+    <!--  PREFERENCIAS -->
+    <string name="Preferencias">Preferencias</string>
+    <string name="Tecnologia">Tecnología</string>
+    <string name="HabilitarBluetooth">Habilitar Bluetooth</string>
+    <string name="PorDefecto">Por defecto se realizará mediante NFC</string>
+    <string name="BorrarHistorial">Borrar Historial</string>
+    <string name="BorrarHistorialSubtitle">Esta opción permite borrar el historial completo de la aplicación</string>
+    <string name="DialogMessage">¿Estás seguro que deseas borrar el historial completo de la aplicación?</string>
+    
+    
+    <!--  HISTORIAL -->
+   <string name="Historial">Historial</string>   
+   <string name="HistorialNoRegistros">No hay registros en la base de datos</string>
+    
+    <!--  AYUDA -->
+    <string name="Ayuda">Acerca de nosotros</string>
+    <string name="AyudaVersion">Versión 1.0</string>
+    <string name="AyudaVersionSubtitle">Condiciones de servicio y uso de la aplicación</string>
+    <string name="AyudaVersionSmart">Smart Bouncer (Versión 1.0)</string>
+    <string name="AyudaInformacion">Aplicación desarrollada dentro del proyecto final del master de Seguridad en las Tecnologías de la Información
+        y las Comunicaciones titulado: desarrollo de una plataforma de identificación segura mediante NFC.</string>      
+    <string name="AyudaCondiciones">Condiciones de uso</string>
+    <string name="AyudaCondicionesInformacion">La presente aplicación demuestra las ventajas que otorga utilizar tecnologías como NFC o Bluetooth en el control
+        de accesos a una empresa. Su uso es puramente académico y se exime a los autores de posibles fallos en su implementación</string>   
+    <string name="AyudaAutores">Sobre los autores</string>   
+    <string name="AyudaAutoresInformacion">Autores del proyecto de la plataforma de identificación segura mediante NFC:\n
+        - Desarrollo de la aplicación Jesús González Tejería-jesus.gonzalez.tejeria@gmail.com\n
+        - Diseño, fabricación e implementación del Hardware: Javier Cacho Peréz\n
+        - Tutor de proyecto: Chema Alonso </string>   
+
+    <!--  NFC -->
+    <string name="NFCNoDispone">El dispositivo no dispone de la tecnología NFC</string>
+    <string name="NFCAdvertencia">Advertencia NFC</string>
+    <string name="NFCMensajeDialogo">NFC no esta habilitado. ¿Desea habilitarlo?</string>
+
+    
+    <!--  BLUETOOTH -->
+    <string name="BluetoothNoDispone">El dispositivo no dispone de la tecnología Bluetooth</string>
+    <string name="BluetoothAdvertencia">Advertencia Bluetooth</string>
+    <string name="BluetoothMensajeDialogo">Bluetooth no esta habilitado. ¿Desea habilitarlo?</string>
+    <string name="BluetoothNoAsociado">No tiene asociado el dispositivo de la empresa. Es necesario añadirlo antes"</string>
+    <string name="BluetoothUUID">El UUID del cliente no coincide con el del servidor</string>
+    <string name="BluetoothNoConexion">No se ha podido establecer la conexión</string>
+    <string name="BluetoothNoCierre">No se ha podido cerrar la conexión</string>
+    <string name="BluetoothNoObtenerStream">No se ha podido obtener el stream</string>
+    <string name="BluetoothNoEscribirStream">No se ha podido escribir en el stream</string>
+
+    
+    <!--  OTHERS -->
+    <string name="app_name">Smart Bouncer</string>
+    <string name="Si">Si</string>
+    <string name="No">No</string>
+    <string name="DatosEnviados">Datos enviados</string>
+
+</resources>
+

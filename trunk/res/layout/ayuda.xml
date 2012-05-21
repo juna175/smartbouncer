@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ayudabackground" >
+   
+    <TextView
+        android:id="@+id/activityAyuda"
+        android:text="@string/Ayuda"
+		style="@style/ActivityTitle" />
+    <TextView
+        android:id="@+id/activityAyudaSmart"
+        android:text="@string/AyudaVersionSmart"
+        android:layout_width="fill_parent"
+        android:layout_height="22dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/activityAyuda"
+		android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/categorybackground" />
+    
+   
+      <TextView
+        android:id="@+id/AyudaInformacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/activityAyudaSmart"
+        android:background="@drawable/ayudatextobackground"
+        android:text="@string/AyudaInformacion"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+      
+       <TextView
+        android:id="@+id/AyudaCondiciones"
+        android:text="@string/AyudaCondiciones"
+        android:layout_width="fill_parent"
+        android:layout_height="22dp"
+        android:layout_below="@+id/AyudaInformacion"
+		android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/categorybackground" />
+          
+       <TextView
+        android:id="@+id/AyudaCondicionesInformacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/AyudaCondiciones"
+        android:background="@drawable/ayudatextobackground"
+        android:text="@string/AyudaCondicionesInformacion"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+       
+       <TextView
+        android:id="@+id/AyudaAutores"
+        android:text="@string/AyudaAutores"
+        android:layout_width="fill_parent"
+        android:layout_height="22dp"
+        android:layout_below="@+id/AyudaCondicionesInformacion"
+		android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/categorybackground" />
+          
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/AyudaAutores"
+        android:background="@drawable/ayudatextobackground"
+        android:text="@string/AyudaAutoresInformacion"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</RelativeLayout>

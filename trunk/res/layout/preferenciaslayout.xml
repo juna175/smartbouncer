@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/preferenciasbackground" >
+    
+     <TextView
+        android:id="@+id/activityPreferencias"
+        android:text="@string/Preferencias"
+		style="@style/ActivityTitle" />
+
+     <ListView 
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/activityPreferencias"
+        android:layout_marginTop="15dp" />
+     
+
+</RelativeLayout>
