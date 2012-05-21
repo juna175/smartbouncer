@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/historialbackground" >
+    
+    <TextView
+        android:id="@+id/activityHistorial"
+        android:text="@string/Historial"
+        style="@style/ActivityTitle" />
+
+
+    <ListView
+    	android:layout_height="match_parent"
+    	android:layout_width="match_parent" 
+    	android:layout_below="@+id/activityHistorial"
+    	android:layout_marginTop="15dp"
+    	android:id="@+id/listviewHistorial" >
+    </ListView>
+    
+
+</RelativeLayout>
